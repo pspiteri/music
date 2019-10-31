@@ -26,6 +26,17 @@
                 font-size: 3.5rem;
             }
         }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            width: auto\9;
+            /* ie8 */
+            /* width: 250px; */
+            /* height: 250px; */
+            /* position: absolute; */
+            /* clip: rect(250px, 10px); */
+        }
     </style>
 
     <title>Hello, world!</title>
@@ -38,11 +49,11 @@
         <div class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container d-flex justify-content-between">
                 <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                    <!-- svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
                         viewBox="0 0 24 24" focusable="false">
                         <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-                        <circle cx="12" cy="13" r="4" /></svg>
+                        <circle cx="12" cy="13" r="4" /></svg -->
                     <strong>Music Bio</strong>
                 </a>
             </div>
@@ -95,11 +106,12 @@
                 <p class="lead text-muted">
                     Paul is a keyboard player, rhythm guitarist with sometime backing vocals.
                     <br>
-                    He has worked with several bands including Rewind 80s, Groove Nation, Takin' Cover, Rock Rewind, and Drop Dead Gorgeous</p>
-                <p>
+                    He has worked with several bands including Rewind 80s, Groove Nation, Takin' Cover, Rock Rewind, and
+                    Drop Dead Gorgeous</p>
+                <!-- p>
                     <a href="#" class="btn btn-primary my-2">Main call to action</a>
                     <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                </p>
+                </p -->
             </div>
         </section>
 
@@ -109,8 +121,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img
-                                src="https://images.squarespace-cdn.com/content/v1/570e09ac22482ed7fde0d927/1490969427944-CF9UTO434R94O4H87ZOG/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/_DSC0109.jpg?format=500w">
+                            <img src="pics/_DSC0109.jpg">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
@@ -126,12 +137,16 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
+
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
                                 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
                                 focusable="false" role="img" aria-label="Placeholder: Thumbnail">
                                 <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
+                                <rect width="100%" height="100%" fill="#55595c">
+                                    <!-- img src="pics/25ad62_8e402a9fe34e4549978f5c1e271b629d.jpg" -->
+                                </rect>
+
+
                             </svg>
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
