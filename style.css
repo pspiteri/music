@@ -51,3 +51,7 @@ img {
   color: gray;
   margin-top: 20px;
 }
+
+.section-divider:first-child {
+  margin-top: 0;
+}
