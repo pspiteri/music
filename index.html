@@ -37,6 +37,34 @@
             /* position: absolute; */
             /* clip: rect(250px, 10px); */
         }
+
+        .square-pic {
+            width: 100%;
+            height: 225px;
+            object-fit: cover;
+            object-position: 0 0;
+        }
+
+        #pic-03 {
+            object-position: 0 20%;
+        }
+
+        #pic-04 {
+            object-position: 45% 20%;
+        }
+
+        #pic-05 {
+            object-position: 0 80%;
+        }
+
+        #pic-06 {
+            object-position: 0 85%;
+        }
+
+        .section-divider {
+            color: gray;
+            margin-top: 20px;
+        }
     </style>
 
     <title>Hello, world!</title>
@@ -119,204 +147,156 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="./pics/_DSC0109.jpg">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-12 section-divider">
+                        <h3>Pics</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/_DSC0109.jpg" class="square-pic">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c">
-                                    <!-- img src="pics/25ad62_8e402a9fe34e4549978f5c1e271b629d.jpg" -->
-                                </rect>
-
-
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/_DSC0094.jpg" class="square-pic">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/12087329_812047462237116_7224355213572831868_o.jpg" class="square-pic"
+                                id="pic-03">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/12194808_826103550831507_5669190541410310059_o+copy.jpg" class="square-pic"
+                                id="pic-04">
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/25ad62_8e402a9fe34e4549978f5c1e271b629d.jpg" class="square-pic">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/12080002_812813225493873_2677627957520825209_o.jpg" class="square-pic">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/12186611_821757131266149_3315762670955808353_o.jpg" class="square-pic">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <img src="./pics/30739364_1532291603534938_3559789274268172288_n.jpg" class="square-pic"
+                                id="pic-05">
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-12 section-divider">
+                        <h3>Vids</h3>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xOPG6LmLn6A"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9oSAL3UNcYQ"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7zm9iy1aWYQ"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FxVL3gywEE4"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jtTAfGefpMk"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mlADy_9z86A"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6Ch8us4QtbI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-3 shadow-sm">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6Ch8us4QtbI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 section-divider">
+                        <h3>Audio</h3>
+                    </div>
+
+                    <div class="col-md-12">
+                        <iframe width="100%" height="100" scrolling="no" frameborder="no"
+                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271817752&color=ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_artwork=false">
+                        </iframe>
+                    </div>
+
+                    <div class="col-md-12 section-divider">
+                        <h3>Gear</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./pics/image-asset.jpeg" class="square-pic" id="pic-06">
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Yamaha CP4</li>
+                            <li>Yamaha MoXF6</li>
+                            <li>Fender Telecaster Blacktop</li>
+                            <li>Line6 Pod HD500X</li>
+                            <li>Roland Gaia SH-01</li>
+                            <li>Yamaha A1 Acoustic Electric</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -328,9 +308,7 @@
             <p class="float-right">
                 <a href="#">Back to top</a>
             </p>
-            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-            <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
-                    href="/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
+            <p>Paul Spiteri | Music Bio</p>
         </div>
     </footer>
 
