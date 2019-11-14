@@ -1,0 +1,53 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+  /* width: 250px; */
+  /* height: 250px; */
+  /* position: absolute; */
+  /* clip: rect(250px, 10px); */
+}
+
+.square-pic {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+#pic-03 {
+  object-position: 0 20%;
+}
+
+#pic-04 {
+  object-position: 45% 20%;
+}
+
+#pic-05 {
+  object-position: 0 80%;
+}
+
+#pic-06 {
+  object-position: 0 85%;
+}
+
+.section-divider {
+  color: gray;
+  margin-top: 20px;
+}
