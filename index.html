@@ -38,47 +38,66 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
-                            <img src="./pics/DSC0109.jpg" class="square-pic">
+                            <img src="./pics/DSC0109.jpg" class="square-pic" data-toggle="modal"
+                                data-target="#exampleModal" data-src="./pics/DSC0109.jpg"
+                                data-desc="Photo shoot prep #1">
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
-                            <img src="./pics/DSC0094.jpg" class="square-pic">
+                            <img src="./pics/DSC0094.jpg" class="square-pic" data-toggle="modal"
+                                data-target="#exampleModal" data-src="./pics/DSC0094.jpg"
+                                data-desc="Photo shoot prep #2">
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
                             <img src="./pics/12087329_812047462237116_7224355213572831868_o.jpg" class="square-pic"
-                                id="pic-03">
+                                id="pic-03" data-toggle="modal" data-target="#exampleModal"
+                                data-src="./pics/12087329_812047462237116_7224355213572831868_o.jpg"
+                                data-desc="Keys and guitar at Hysteria Bar">
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
                             <img src="./pics/12194808_826103550831507_5669190541410310059_o+copy.jpg" class="square-pic"
-                                id="pic-04">
+                                id="pic-04" data-toggle="modal" data-target="#exampleModal"
+                                data-src="./pics/12194808_826103550831507_5669190541410310059_o+copy.jpg" ,
+                                data-desc="Keys at Mordi">
                         </div>
                     </div>
 
 
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
-                            <img src="./pics/25ad62_8e402a9fe34e4549978f5c1e271b629d.jpg" class="square-pic">
+                            <img src="./pics/25ad62_8e402a9fe34e4549978f5c1e271b629d.jpg" class="square-pic"
+                                data-toggle="modal" data-target="#exampleModal"
+                                data-src="./pics/25ad62_8e402a9fe34e4549978f5c1e271b629d.jpg" ,
+                                data-desc="More keys at Mordi">
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
-                            <img src="./pics/12080002_812813225493873_2677627957520825209_o.jpg" class="square-pic">
+                            <img src="./pics/12080002_812813225493873_2677627957520825209_o.jpg" class="square-pic"
+                                data-toggle="modal" data-target="#exampleModal"
+                                data-src="./pics/12080002_812813225493873_2677627957520825209_o.jpg" ,
+                                data-desc="More keys and guitar at Hysteria Bar">
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
-                            <img src="./pics/12186611_821757131266149_3315762670955808353_o.jpg" class="square-pic">
+                            <img src="./pics/12186611_821757131266149_3315762670955808353_o.jpg" class="square-pic"
+                                data-toggle="modal" data-target="#exampleModal"
+                                data-src="./pics/12186611_821757131266149_3315762670955808353_o.jpg" ,
+                                data-desc="Keys at Seamus O'Reilly">
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
                             <img src="./pics/30739364_1532291603534938_3559789274268172288_n.jpg" class="square-pic"
-                                id="pic-05">
+                                id="pic-05" data-toggle="modal" data-target="#exampleModal"
+                                data-src="./pics/30739364_1532291603534938_3559789274268172288_n.jpg" ,
+                                data-desc="Keys with Rewind 80s">
                         </div>
                     </div>
 
@@ -170,7 +189,10 @@
                         <h3>Gear</h3>
                     </div>
                     <div class="col-md-6">
-                        <img src="./pics/image-asset.jpeg" class="square-pic" id="pic-06">
+                        <img src="./pics/image-asset.jpeg" class="square-pic" id="pic-06" class="square-pic" id="pic-05"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-src="./pics/image-asset.jpeg" ,
+                            data-desc="Sample of my gear">
                     </div>
                     <div class="col-md-6">
                         <ul>
@@ -187,7 +209,7 @@
                         <h3>Instruments</h3>
                     </div>
                     <div class="col-md-12">
-                        <p>Keys | Electric Guitar | Accoustic Guitar | Backing Vox</p>
+                        <p>Keys | Guitar | Backing Vox | PA | Lights</p>
                     </div>
 
                     <div class="col-md-12 section-divider">
@@ -212,6 +234,28 @@
         </div>
     </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">25 words or fewer xyz xyza</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./pics/DSC0109.jpg">
+                </div>
+                <!-- div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div -->
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -223,6 +267,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script>
+        $('#exampleModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var newSrc = button.data('src') // Extract info from data-* attributes
+            var newDesc = button.data('desc') // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            var modal = $(this)
+            modal.find('.modal-title').text(newDesc)
+            // modal.find('.modal-body input').val(newSrc)
+            modal.find('img').attr('src', newSrc)
+        })
+    </script>
 </body>
 
 </html>
